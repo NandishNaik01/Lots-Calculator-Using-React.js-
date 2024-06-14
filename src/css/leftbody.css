@@ -89,3 +89,26 @@ input[type="number"] {
   border: 2px solid white;
   cursor: pointer;
 }
+.Indexes {
+  margin: 4%;
+  padding: 4%;
+}
+.Indexes:active {
+  background-color: green;
+}
+.IndexSelector {
+  /* border: 2px solid black; */
+  height: 20vh;
+  width: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.IndexSelector .Indexes:hover {
+  background-color: white;
+  color: black;
+}
+
+.IndexSelector .Indexes.active {
+  background-color: green;
+}
