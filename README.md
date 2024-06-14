@@ -66,10 +66,6 @@ To get started with this project, follow these steps:
 
 That's it! You're now ready to start working with the project.
 
-```
-
-
-
 ### Usage Instructions
 
 There are four input fields:
@@ -106,4 +102,7 @@ For any inquiries, feedback, or suggestions regarding this project, please conta
 - GitHub: [https://github.com/NandishNaik01](https://github.com/NandishNaik01)
 - Portfolio: [ReactoFolio](https://nandishnaik.netlify.app/)
 - LinkedIn: [LinkedIn Profile](www.linkedin.com/in/nandish-d-naik-39a785257)
+
+```
+
 ```
