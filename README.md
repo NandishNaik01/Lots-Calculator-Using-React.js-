@@ -25,6 +25,51 @@
 
 ![Filled Input Tags ](https://github.com/NandishNaik01/Lots-Calculator-Using-React.js-/assets/147323163/aaf164ae-594b-46dc-ac22-0b66188cd9ce)
 
+### Installation
+
+To get started with this project, follow these steps:
+
+1. **Clone the repository**:
+
+   `git clone https://github.com/NandishNaik01/Lots-Calculator-Using-React.js-.git`
+   `cd Lots-Calculator-Using-React.js`
+
+2. **Install dependencies**:
+
+   Using npm:
+
+   `npm install`
+
+3. **Start the development server**:
+
+   `npm run dev`
+
+4. **Open the project in your browser**:
+
+   Once the development server has started, open your web browser and go to:
+
+   `http://localhost:5173`
+
+5. **Build for production** (optional):
+
+   To build the project for production, use:
+
+   `npm run build`
+
+   The production build will be located in the `dist` directory.
+
+6. **Run tests** (if applicable):
+
+   If there are tests included in the project, you can run them using:
+
+   `npm test`
+
+That's it! You're now ready to start working with the project.
+
+```
+
+
+
 ### Usage Instructions
 
 There are four input fields:
@@ -61,3 +106,4 @@ For any inquiries, feedback, or suggestions regarding this project, please conta
 - GitHub: [https://github.com/NandishNaik01](https://github.com/NandishNaik01)
 - Portfolio: [ReactoFolio](https://nandishnaik.netlify.app/)
 - LinkedIn: [LinkedIn Profile](www.linkedin.com/in/nandish-d-naik-39a785257)
+```
