@@ -4,8 +4,7 @@
 
 - [Introduction](#introduction)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
+- [Usage Instructions](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -26,4 +25,26 @@
 
 ![Filled Input Tags ](https://github.com/NandishNaik01/Lots-Calculator-Using-React.js-/assets/147323163/aaf164ae-594b-46dc-ac22-0b66188cd9ce)
 
-### Usage
+### Usage Instructions
+
+There are four input fields:
+
+- **Capital**
+- **Risk per trade**
+- **Trades per day**
+- **Option price**
+
+Fill in these input fields as shown in the above image.
+
+Once filled, you will be able to see:
+
+- The total amount of risk you can take on a single trade.
+- The total number of lots you can buy in that particular trade.
+- The total number of individual units of the total lots.
+
+### Contributing
+
+Currently, the web application fulfills its primary purpose, but there are some features we can add to enhance its functionality:
+
+- **Dynamic Option Selection**: Instead of requiring the user to manually input the option prices, we can allow users to choose the appropriate option from a list. This is particularly useful since option prices are dynamic and constantly changing.
+- **API Integration**: By integrating with an API to fetch real-time option prices, we can automatically update the values based on the selected option strike. This will make the process more efficient and reduce the time required for manual input.
