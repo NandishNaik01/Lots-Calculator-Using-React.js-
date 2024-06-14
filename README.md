@@ -48,3 +48,16 @@ Currently, the web application fulfills its primary purpose, but there are some 
 
 - **Dynamic Option Selection**: Instead of requiring the user to manually input the option prices, we can allow users to choose the appropriate option from a list. This is particularly useful since option prices are dynamic and constantly changing.
 - **API Integration**: By integrating with an API to fetch real-time option prices, we can automatically update the values based on the selected option strike. This will make the process more efficient and reduce the time required for manual input.
+
+### License
+
+This project is provided without any license. You are free to use, modify, and distribute it in any way you like.
+
+### Contact
+
+For any inquiries, feedback, or suggestions regarding this project, please contact:
+
+- Email: [naik.nandishd@gmail.com](naik.nandishd@gmail.com)
+- GitHub: [https://github.com/NandishNaik01](https://github.com/NandishNaik01)
+- Portfolio: [ReactoFolio](https://nandishnaik.netlify.app/)
+- LinkedIn: [LinkedIn Profile](www.linkedin.com/in/nandish-d-naik-39a785257)
