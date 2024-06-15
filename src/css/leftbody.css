@@ -24,6 +24,7 @@
   .IndexSelector .Indexes {
     font-size: 1rem;
     padding: 10px;
+    border: none;
   }
   input {
     padding: 20px;
