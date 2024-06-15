@@ -101,7 +101,7 @@ const LeftBody = () => {
           <h1 className="tag">Your Risk Per day is : &#x20b9; {Rpd} Rs</h1>
         </div>
         <div className="button-container">
-          <h4>Choose Your Index :</h4>
+          <h4>Choose Index : </h4>
           <button
             onClick={setCounterOne}
             className={`Indexes ${activeButton === "Nifty" ? "active" : ""}`}>

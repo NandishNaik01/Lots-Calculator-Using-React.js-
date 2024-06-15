@@ -152,12 +152,12 @@ input[type="number"] {
 }
 
 .Indexes.active {
-  background-color: #ff813f;
+  background-color: #20ef0d;
   color: white;
 }
 
 .Indexes:hover {
-  background-color: #e57331;
+  background-color: #0cec17;
 }
 
 /* Optional: Media query for responsiveness */
