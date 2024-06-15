@@ -21,11 +21,7 @@
     /* margin-bottom: 20px !important; */
     text-align: center;
   }
-  .IndexSelector .Indexes {
-    font-size: 1rem;
-    padding: 10px;
-    border: none;
-  }
+
   input {
     padding: 20px;
     width: 100vw !important;
@@ -122,9 +118,7 @@ input[type="number"] {
   justify-content: space-evenly;
   /* border: 2px solid black; */
 }
-.IndexSelector .Indexes {
-  font-size: 1rem;
-}
+
 .IndexSelector .Indexes:hover {
   background-color: white;
   color: black;
@@ -134,4 +128,46 @@ input[type="number"] {
   background-color: green;
   color: white;
   border: 2px double white;
+}
+
+/* styles.css */
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Indexes {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 200px; /* Optional: Limit the maximum width */
+}
+
+.Indexes.active {
+  background-color: #ff813f;
+  color: white;
+}
+
+.Indexes:hover {
+  background-color: #e57331;
+}
+
+/* Optional: Media query for responsiveness */
+@media (max-width: 1000px) {
+  .button-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .Indexes {
+    max-width: none;
+  }
 }
