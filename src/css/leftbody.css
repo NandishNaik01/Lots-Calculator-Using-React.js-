@@ -39,6 +39,7 @@ input {
 input::placeholder {
   color: black;
   font-weight: 400;
+  font-size: 1rem;
 
   /* padding: 1rem; */
   /* width: 1rem;
@@ -95,10 +96,10 @@ input[type="number"] {
   margin: 4%;
   padding: 4%;
 }
-.Indexes:active {
+/* .Indexes:active {
   background-color: green;
   color: white;
-}
+} */
 .IndexSelector {
   /* border: 2px solid black; */
   height: 20vh;
@@ -106,6 +107,9 @@ input[type="number"] {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+.IndexSelector .Indexes {
+  font-size: 1rem;
 }
 .IndexSelector .Indexes:hover {
   background-color: white;
