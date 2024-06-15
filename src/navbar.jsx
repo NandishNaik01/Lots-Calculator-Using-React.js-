@@ -1,7 +1,15 @@
 import "./css/navbar.css";
 import calco from "./assets/calco.png";
-// import menu from "./assets/menu.svg";
+// import react from "./assets/react.svg";
 const Nav = () => {
+  const PaymentPopup = () => {
+    // console.log("Hello World");
+    window.open(
+      "https://github.com/NandishNaik01/Personal-Portofolio/assets/147323163/fe147e5b-f51b-4a95-be42-ecb22edec4db",
+      "_blank",
+      "width=500,height=500"
+    );
+  };
   return (
     <div>
       <div className="NavContainer">
@@ -14,7 +22,9 @@ const Nav = () => {
         <li>INDEX</li>
         <li>CRYPTO</li> */}
       </div>
-      <button id="buymecoffee">Buy Me A Coffee</button>
+      <button id="buymecoffee" onClick={PaymentPopup}>
+        Buy Me A Coffee
+      </button>
     </div>
   );
 };
